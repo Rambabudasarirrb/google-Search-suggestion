@@ -1,0 +1,25 @@
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-size: 10px;
+  font-family: 'roboto';
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .icon {
+    font-size: 16px;
+  }
+}
+
+.icon {
+  height: 14px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .icon {
+    height: 20px;
+  }
+}
